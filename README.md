@@ -1,4 +1,4 @@
-# DevelopingDataProducts
+# Developing Data Products - Course Project
 
 ### Diamonds Dataset Graphic
 
