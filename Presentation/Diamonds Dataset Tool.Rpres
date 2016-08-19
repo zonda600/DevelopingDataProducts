@@ -1,0 +1,38 @@
+Diamonds Dataset Tool
+========================================================
+author: Scott Keefer
+date: 8/19/2016
+autosize: true
+
+Tools Used for Development
+========================================================
+
+This application will allow you to explore the **Diamonds** dataset included in the *ggplot2* package available for RStudio.
+
+- Shiny has been used to create this application.
+
+- R-Presentation has been used to develop this presentation pitch.
+
+Diamonds Dataset Application
+========================================================
+
+The Diamonds Dataset application will allow you to compare the carat size to the quality of the cut. In addition, you will be able to create individuals graphs in one view on all other fields, including:
+
+- Clarity
+- Depth
+- Table
+- Price
+
+Diamonds Dataset
+========================================================
+
+This dataset is included with the popular ggplot2 package available for RStudio. This particular dataset has several fields which can be used to analyze the data in intriguing ways.
+
+The source code for the tool is available on [GitHub](https://github.com/zonda600/DevelopingDataProducts/tree/master/Shiny_App)
+
+Diamonds Dataset Example
+========================================================
+```{r, echo=TRUE}
+library(ggplot2)
+head(diamonds)
+```
